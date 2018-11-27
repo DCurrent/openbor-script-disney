@@ -13,4 +13,4 @@
 #import "data/scripts/dc_disney/alternate_on_health.c"
 #import "data/scripts/dc_disney/alternate_on_range.c"
 #import "data/scripts/dc_disney/play_animation.c"
-#import "data/scripts/dc_disney/set_attack.c"
+#import "data/scripts/dc_disney/perform_attack.c"
