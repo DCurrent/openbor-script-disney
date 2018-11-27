@@ -24,7 +24,7 @@ void dc_disney_get_entity()
 
 	result = getlocalvar(instance + DC_DISNEY_VAR_KEY_ENT);
 
-	if (!result)
+	if (typeof(result) != openborconstant("VT_PTR"))
 	{
 		result = getlocalvar("self");
 	}
