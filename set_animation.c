@@ -1,6 +1,6 @@
 #include "data/scripts/dc_disney/config.h"
 
-#import "data/scripts/dc_disney/config.c"
+#import "data/scripts/dc_disney/entity.c"
 
 // Caskey, Damon V.
 // 2016-09-13

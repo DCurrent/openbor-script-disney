@@ -8,7 +8,7 @@
 #include "data/scripts/dc_disney/config.h"
 
 #import "data/scripts/dc_disney/instance.c"
-#import "data/scripts/dc_disney/config.c"
+#import "data/scripts/dc_disney/entity.c"
 #import "data/scripts/dc_disney/dash_stop.c"
 #import "data/scripts/dc_disney/alternate_on_health.c"
 #import "data/scripts/dc_disney/alternate_on_range.c"
