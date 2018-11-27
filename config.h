@@ -1,6 +1,8 @@
 #ifndef DC_DISNEY_CONFIG
 #define DC_DISNEY_CONFIG 1
 
+#define DC_DISNEY_DEFAULT_INSTANCE		0
+#define DC_DISNEY_DEFAULT_ENT			getlocalvar("self");
 
 // Variable keys. Used to identify cross function
 // variables used throughout library.
