@@ -7,7 +7,7 @@
 //
 // Verify animation and entity, then switch
 // entity to new animation.
-int dc_disney_set_animation(int animation)
+int dc_disney_play_animation(int animation)
 {
 	void ent;
 	int is_valid;
