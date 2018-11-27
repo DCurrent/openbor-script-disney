@@ -1,14 +1,28 @@
 #include "data/scripts/dc_disney/config.h"
 
+#import "data/scripts/dc_disney/instance.c"
+
 // Entity is the primary entity that performs actions.
 void dc_disney_set_entity(void value)
 {
-	setlocalvar(DC_DISNEY_VAR_KEY_ENT, value);
+	int instance;
+	void result;
+
+	// Get instance.
+	instance = dc_disney_get_instance();
+
+	setlocalvar(instance + DC_DISNEY_VAR_KEY_ENT, value);
 }
 
 void dc_disney_get_entity()
 {
-	void result = getlocalvar(DC_DISNEY_VAR_KEY_ENT);
+	int instance;
+	void result;
+
+	// Get instance.
+	instance = dc_disney_get_instance();
+
+	result = getlocalvar(instance + DC_DISNEY_VAR_KEY_ENT);
 
 	if (!result)
 	{
