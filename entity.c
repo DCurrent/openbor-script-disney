@@ -1,7 +1,5 @@
 #include "data/scripts/dc_disney/config.h"
 
-#import "data/scripts/dc_disney/instance.c"
-
 // Primary acting entity.
 void dc_disney_get_entity()
 {
