@@ -9,7 +9,7 @@ void dc_disney_get_animation()
 	// Get instance.
 	instance = dc_disney_get_instance();
 
-	result = getlocalvar(instance + DC_DISNEY_VAR_KEY_ANIMATION);
+	result = getlocalvar(instance + DC_DISNEY_MEMBER_ANIMATION);
 
 	if (typeof(result) != openborconstant("VT_INTEGER"))
 	{
@@ -26,6 +26,6 @@ void dc_disney_set_animation(void value)
 	// Get instance.
 	instance = dc_disney_get_instance();
 
-	setlocalvar(instance + DC_DISNEY_VAR_KEY_ANIMATION, value);
+	setlocalvar(instance + DC_DISNEY_MEMBER_ANIMATION, value);
 }
 

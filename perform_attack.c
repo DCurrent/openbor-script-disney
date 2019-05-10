@@ -17,7 +17,7 @@ int dc_disney_perform_attack(int animation)
 	// Get base entity.
 	ent = dc_disney_get_entity();
 
-	// Get animation valid status.
+	// Get animation valid "entity_status".
 	is_valid = getentityproperty(ent, "animvalid", animation);
 
 	// Animation is valid?

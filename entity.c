@@ -9,7 +9,7 @@ void dc_disney_get_entity()
 	// Get instance.
 	instance = dc_disney_get_instance();
 
-	result = getlocalvar(instance + DC_DISNEY_VAR_KEY_ENT);
+	result = getlocalvar(instance + DC_DISNEY_MEMBER_ENT);
 
 	if (typeof(result) != openborconstant("VT_PTR"))
 	{
@@ -27,5 +27,5 @@ void dc_disney_set_entity(void value)
 	// Get instance.
 	instance = dc_disney_get_instance();
 
-	setlocalvar(instance + DC_DISNEY_VAR_KEY_ENT, value);
+	setlocalvar(instance + DC_DISNEY_MEMBER_ENT, value);
 }
