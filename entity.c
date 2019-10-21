@@ -11,10 +11,12 @@ void dc_disney_get_entity()
 
 	result = getlocalvar(instance + DC_DISNEY_MEMBER_ENT);
 
-	if (typeof(result) != openborconstant("VT_PTR"))
+	if (result == NULL())
 	{
 		result = DC_DISNEY_DEFAULT_ENT;
 	}
+
+	log("\n dc_disney_get_entity " + result);
 
 	return result;
 }
